@@ -1,0 +1,220 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Alien-Build-2.83
+    pathname: P/PL/PLICEASE/Alien-Build-2.83.tar.gz
+    provides:
+      Alien::Base 2.83
+      Alien::Base::PkgConfig 2.83
+      Alien::Base::Wrapper 2.83
+      Alien::Build 2.83
+      Alien::Build::CommandSequence 2.83
+      Alien::Build::Helper 2.83
+      Alien::Build::Interpolate 2.83
+      Alien::Build::Interpolate::Default 2.83
+      Alien::Build::Interpolate::Helper 2.83
+      Alien::Build::Log 2.83
+      Alien::Build::Log::Abbreviate 2.83
+      Alien::Build::Log::Default 2.83
+      Alien::Build::MM 2.83
+      Alien::Build::Meta 2.83
+      Alien::Build::Plugin 2.83
+      Alien::Build::Plugin::Build::Autoconf 2.83
+      Alien::Build::Plugin::Build::CMake 2.83
+      Alien::Build::Plugin::Build::Copy 2.83
+      Alien::Build::Plugin::Build::MSYS 2.83
+      Alien::Build::Plugin::Build::Make 2.83
+      Alien::Build::Plugin::Build::SearchDep 2.83
+      Alien::Build::Plugin::Core::CleanInstall 2.83
+      Alien::Build::Plugin::Core::Download 2.83
+      Alien::Build::Plugin::Core::FFI 2.83
+      Alien::Build::Plugin::Core::Gather 2.83
+      Alien::Build::Plugin::Core::Legacy 2.83
+      Alien::Build::Plugin::Core::Override 2.83
+      Alien::Build::Plugin::Core::Setup 2.83
+      Alien::Build::Plugin::Core::Tail 2.83
+      Alien::Build::Plugin::Decode::DirListing 2.83
+      Alien::Build::Plugin::Decode::DirListingFtpcopy 2.83
+      Alien::Build::Plugin::Decode::HTML 2.83
+      Alien::Build::Plugin::Decode::Mojo 2.83
+      Alien::Build::Plugin::Digest::Negotiate 2.83
+      Alien::Build::Plugin::Digest::SHA 2.83
+      Alien::Build::Plugin::Digest::SHAPP 2.83
+      Alien::Build::Plugin::Download::Negotiate 2.83
+      Alien::Build::Plugin::Extract::ArchiveTar 2.83
+      Alien::Build::Plugin::Extract::ArchiveZip 2.83
+      Alien::Build::Plugin::Extract::CommandLine 2.83
+      Alien::Build::Plugin::Extract::Directory 2.83
+      Alien::Build::Plugin::Extract::File 2.83
+      Alien::Build::Plugin::Extract::Negotiate 2.83
+      Alien::Build::Plugin::Fetch::CurlCommand 2.83
+      Alien::Build::Plugin::Fetch::HTTPTiny 2.83
+      Alien::Build::Plugin::Fetch::LWP 2.83
+      Alien::Build::Plugin::Fetch::Local 2.83
+      Alien::Build::Plugin::Fetch::LocalDir 2.83
+      Alien::Build::Plugin::Fetch::NetFTP 2.83
+      Alien::Build::Plugin::Fetch::Wget 2.83
+      Alien::Build::Plugin::Gather::IsolateDynamic 2.83
+      Alien::Build::Plugin::PkgConfig::CommandLine 2.83
+      Alien::Build::Plugin::PkgConfig::LibPkgConf 2.83
+      Alien::Build::Plugin::PkgConfig::MakeStatic 2.83
+      Alien::Build::Plugin::PkgConfig::Negotiate 2.83
+      Alien::Build::Plugin::PkgConfig::PP 2.83
+      Alien::Build::Plugin::Prefer::BadVersion 2.83
+      Alien::Build::Plugin::Prefer::GoodVersion 2.83
+      Alien::Build::Plugin::Prefer::SortVersions 2.83
+      Alien::Build::Plugin::Probe::CBuilder 2.83
+      Alien::Build::Plugin::Probe::CommandLine 2.83
+      Alien::Build::Plugin::Probe::Vcpkg 2.83
+      Alien::Build::Plugin::Test::Mock 2.83
+      Alien::Build::PluginMeta 2.83
+      Alien::Build::Temp 2.83
+      Alien::Build::TempDir 2.83
+      Alien::Build::Util 2.83
+      Alien::Build::Version::Basic 2.83
+      Alien::Build::rc 2.83
+      Alien::Role 2.83
+      Alien::Util 2.83
+      Test::Alien 2.83
+      Test::Alien::Build 2.83
+      Test::Alien::CanCompile 2.83
+      Test::Alien::CanPlatypus 2.83
+      Test::Alien::Diag 2.83
+      Test::Alien::Run 2.83
+      Test::Alien::Synthetic 2.83
+      alienfile 2.83
+    requirements:
+      Capture::Tiny 0.17
+      Digest::SHA 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 6.64
+      ExtUtils::ParseXS 3.30
+      FFI::CheckLib 0.11
+      File::Which 1.10
+      File::chdir 0
+      JSON::PP 0
+      List::Util 1.33
+      Path::Tiny 0.077
+      Test2::API 1.302096
+      Text::ParseWords 3.26
+      parent 0
+      perl 5.008004
+  Alien-raylib-0.025
+    pathname: A/AT/ATHREEF/Alien-raylib-0.025.tar.gz
+    provides:
+      Alien::raylib 0.025
+    requirements:
+      Alien::Build 0.32
+      Alien::Build::MM 0.32
+      Alien::Build::Plugin::Build::CMake 0.99
+      ExtUtils::MakeMaker 6.52
+      perl 5.008
+  Convert-Color-0.17
+    pathname: P/PE/PEVANS/Convert-Color-0.17.tar.gz
+    provides:
+      Convert::Color 0.17
+      Convert::Color::CMY 0.17
+      Convert::Color::CMYK 0.17
+      Convert::Color::HSL 0.17
+      Convert::Color::HSV 0.17
+      Convert::Color::RGB 0.17
+      Convert::Color::RGB16 0.17
+      Convert::Color::RGB8 0.17
+      Convert::Color::VGA 0.17
+      Convert::Color::X11 0.17
+    requirements:
+      List::UtilsBy 0
+      Module::Build 0.4004
+      Module::Pluggable 0
+      Sub::Util 1.40
+      perl 5.014
+  FFI-CheckLib-0.31
+    pathname: P/PL/PLICEASE/FFI-CheckLib-0.31.tar.gz
+    provides:
+      FFI::CheckLib 0.31
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Which 0
+      List::Util 1.33
+      perl 5.006
+  FFI-Platypus-2.08
+    pathname: P/PL/PLICEASE/FFI-Platypus-2.08.tar.gz
+    provides:
+      FFI::Build 2.08
+      FFI::Build::File::Base 2.08
+      FFI::Build::File::C 2.08
+      FFI::Build::File::CXX 2.08
+      FFI::Build::File::Library 2.08
+      FFI::Build::File::Object 2.08
+      FFI::Build::MM 2.08
+      FFI::Build::MM::FBX 2.08
+      FFI::Build::Platform 2.08
+      FFI::Build::Plugin 2.08
+      FFI::Build::Plugin::Foo1 undef
+      FFI::Build::Plugin::Foo2 undef
+      FFI::Build::PluginData 2.08
+      FFI::Platypus 2.08
+      FFI::Platypus::API 2.08
+      FFI::Platypus::Buffer 2.08
+      FFI::Platypus::Bundle 2.08
+      FFI::Platypus::Closure 2.08
+      FFI::Platypus::ClosureData 2.08
+      FFI::Platypus::Constant 2.08
+      FFI::Platypus::DL 2.08
+      FFI::Platypus::Function 2.08
+      FFI::Platypus::Function::Function 2.08
+      FFI::Platypus::Function::Wrapper 2.08
+      FFI::Platypus::Internal 2.08
+      FFI::Platypus::Lang 2.08
+      FFI::Platypus::Lang::ASM 2.08
+      FFI::Platypus::Lang::C 2.08
+      FFI::Platypus::Lang::Win32 2.08
+      FFI::Platypus::Legacy 2.08
+      FFI::Platypus::Memory 2.08
+      FFI::Platypus::Record 2.08
+      FFI::Platypus::Record::Meta 2.08
+      FFI::Platypus::Record::TieArray 2.08
+      FFI::Platypus::ShareConfig 2.08
+      FFI::Platypus::Type 2.08
+      FFI::Platypus::Type::PointerSizeBuffer 2.08
+      FFI::Platypus::Type::StringArray 2.08
+      FFI::Platypus::Type::StringPointer 2.08
+      FFI::Platypus::Type::WideString 2.08
+      FFI::Platypus::TypeParser 2.08
+      FFI::Platypus::TypeParser::Version0 2.08
+      FFI::Platypus::TypeParser::Version1 2.08
+      FFI::Platypus::TypeParser::Version2 2.08
+      FFI::Probe 2.08
+      FFI::Probe::Runner 2.08
+      FFI::Probe::Runner::Builder 2.08
+      FFI::Probe::Runner::Result 2.08
+      FFI::Temp 2.08
+    requirements:
+      Capture::Tiny 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 7.12
+      ExtUtils::ParseXS 3.30
+      FFI::CheckLib 0.05
+      File::Spec::Functions 0
+      IPC::Cmd 0
+      JSON::PP 0
+      List::Util 1.45
+      autodie 0
+      constant 1.32
+      parent 0
+      perl 5.008004
+  List-UtilsBy-0.12
+    pathname: P/PE/PEVANS/List-UtilsBy-0.12.tar.gz
+    provides:
+      List::UtilsBy 0.12
+    requirements:
+      Exporter 5.57
+      Module::Build 0.4004
+  Term-Screen-1.06
+    pathname: J/JS/JSTOWE/Term-Screen-1.06.tar.gz
+    provides:
+      Term::Screen 1.06
+    requirements:
+      ExtUtils::MakeMaker 0
+      Term::Cap 0
+      Test::More 0
+      perl 5.006

@@ -43,6 +43,13 @@ class Games::MapBuilder::RectangularRoom : isa(Games::MapBuilder::Room) {
     field $x2 = $x1 + $width;
     field $y2 = $y1 + $height;
 
+    method set_origin ( $x, $y ) {
+        $x1 = $x;
+        $y1 = $y;
+        $x2 = $x1 + $width;
+        $y2 = $y1 + $height;
+    }
+
     method random_point() {
         my $x = int( $x1 + rand($width) + 1 );
         my $y = int( $y1 + rand($height) + 1 );
@@ -61,10 +68,12 @@ class Games::MapBuilder::RectangularRoom : isa(Games::MapBuilder::Room) {
 
     method as_hash() {
         return {
-            x1 => $x1,
-            y1 => $y1,
-            x2 => $x2,
-            y2 => $y2,
+            x1     => $x1,
+            y1     => $y1,
+            x2     => $x2,
+            y2     => $y2,
+            height => $height,
+            width  => $width,
         };
     }
 }

@@ -35,7 +35,7 @@ class Games::MapBuilder::Map {
 class Games::MapBuilder {
     method build_map      ($map)             { ... }
     method spawn_entities ( $map, $spawner ) { ... }
-    method get_map()               { ... }
+    method map()                   { ... }
     method get_starting_position() { ... }
 
     # method get_snapshot_history() { ... }
